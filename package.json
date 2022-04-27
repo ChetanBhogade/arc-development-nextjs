@@ -19,7 +19,8 @@
     "next": "latest",
     "prop-types": "latest",
     "react": "latest",
-    "react-dom": "latest"
+    "react-dom": "latest",
+    "react-lottie": "^1.2.3"
   },
   "devDependencies": {
     "eslint": "latest",

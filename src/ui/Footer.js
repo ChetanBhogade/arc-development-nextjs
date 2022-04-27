@@ -3,11 +3,6 @@ import { styled } from "@mui/material/styles";
 import React from "react";
 import { Link } from "react-router-dom";
 
-import footerAdornment from "../../assets/Footer Adornment.svg";
-import facebook from "../../assets/facebook.svg";
-import twitter from "../../assets/twitter.svg";
-import instagram from "../../assets/instagram.svg";
-
 const StyledFooter = styled("footer")(({ theme }) => ({
   backgroundColor: theme.palette.common.arcBlue,
   width: "100%",
@@ -205,7 +200,10 @@ function Footer(props) {
           </Grid>
         </StyledGridItem>
       </MainContainer>
-      <AdornmentImg src={footerAdornment} alt="Black decorative slash" />
+      <AdornmentImg
+        src="/assets/footerAdornment"
+        alt="Black decorative slash"
+      />
       <SocialContainer spacing={2} justifyContent="flex-end" container>
         <Grid
           item
@@ -214,7 +212,7 @@ function Footer(props) {
           rel="nooperner noreferrer"
           target="_blank"
         >
-          <StyledIcon alt="Facebook Logo" src={facebook} />
+          <StyledIcon alt="Facebook Logo" src="/assets/facebook.svg" />
         </Grid>
         <Grid
           item
@@ -223,7 +221,7 @@ function Footer(props) {
           rel="nooperner noreferrer"
           target="_blank"
         >
-          <StyledIcon alt="Twitter Logo" src={twitter} />
+          <StyledIcon alt="Twitter Logo" src="/assets/twitter.svg" />
         </Grid>
         <Grid
           item
@@ -232,7 +230,7 @@ function Footer(props) {
           rel="nooperner noreferrer"
           target="_blank"
         >
-          <StyledIcon alt="Instagram Logo" src={instagram} />
+          <StyledIcon alt="Instagram Logo" src="/assets/instagram.svg" />
         </Grid>
       </SocialContainer>
     </StyledFooter>

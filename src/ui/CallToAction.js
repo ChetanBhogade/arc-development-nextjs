@@ -1,11 +1,8 @@
 import React from "react";
 import { Button, Grid, Typography, useMediaQuery } from "@mui/material";
 import { styled, useTheme } from "@mui/system";
-import { Link } from "react-router-dom";
+import Link from "../Link";
 import ButtonArrow from "./ButtonArrow";
-
-import background from "../../assets/background.jpg";
-import mobileBackground from "../../assets/mobileBackground.jpg";
 
 const LearnButton = styled(Button)(({ theme }) => ({
   ...theme.typography.learnButton,
@@ -18,7 +15,7 @@ const LearnButton = styled(Button)(({ theme }) => ({
 }));
 
 const Background = styled(Grid)(({ theme }) => ({
-  backgroundImage: `url(${background})`,
+  backgroundImage: 'url("/assets/background.jpg")',
   backgroundPosition: "center",
   backgroundSize: "cover",
   backgroundAttachment: "fixed",
@@ -26,7 +23,7 @@ const Background = styled(Grid)(({ theme }) => ({
   height: "60em",
   width: "100%",
   [theme.breakpoints.down("md")]: {
-    backgroundImage: `url(${mobileBackground})`,
+    backgroundImage: 'url("/assets/mobileBackground.js")',
     backgroundAttachment: "inherit",
   },
 }));
@@ -85,7 +82,7 @@ function CallToAction(props) {
             >
               <LearnButton
                 component={Link}
-                to="/revolution"
+                href="/revolution"
                 variant="outlined"
                 onClick={() => {
                   setValue(2);
@@ -105,7 +102,7 @@ function CallToAction(props) {
       <Grid item>
         <EstimateButton
           component={Link}
-          to="/estimate"
+          href="/estimate"
           variant="contained"
           onClick={() => setValue(5)}
         >

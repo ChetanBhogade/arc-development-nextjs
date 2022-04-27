@@ -19,7 +19,6 @@ import styled from "@emotion/styled";
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 
-import logo from "../../assets/logo.svg";
 import MenuIcon from "@mui/icons-material/Menu";
 
 const MyComponent = styled("div")(({ theme }) => ({
@@ -350,7 +349,7 @@ function Header(props) {
               LinkComponent={Link}
               to="/"
             >
-              <MyImg src={logo} alt="Company Logo" />
+              <MyImg src="/assets/logo.svg" alt="Company Logo" />
             </LogoContainer>
             {matches ? drawer() : tabs()}
           </Toolbar>
