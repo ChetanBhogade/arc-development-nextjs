@@ -1,7 +1,7 @@
 import { Grid } from "@mui/material";
 import { styled } from "@mui/material/styles";
 import React from "react";
-import { Link } from "react-router-dom";
+import Link from "../Link";
 
 const StyledFooter = styled("footer")(({ theme }) => ({
   backgroundColor: theme.palette.common.arcBlue,
@@ -67,7 +67,7 @@ function Footer(props) {
           <Grid container direction="column" spacing={2}>
             <StyledGridLink
               component={Link}
-              to="/"
+              href="/"
               onClick={() => setValue(0)}
               item
             >
@@ -79,7 +79,7 @@ function Footer(props) {
           <Grid container direction="column" spacing={2}>
             <StyledGridLink
               component={Link}
-              to="/services"
+              href="/services"
               onClick={() => {
                 setValue(1);
                 setSelectedIndex(0);
@@ -90,7 +90,7 @@ function Footer(props) {
             </StyledGridLink>
             <StyledGridLink
               component={Link}
-              to="/custom-software"
+              href="/custom-software"
               onClick={() => {
                 setValue(1);
                 setSelectedIndex(1);
@@ -101,7 +101,7 @@ function Footer(props) {
             </StyledGridLink>
             <StyledGridLink
               component={Link}
-              to="/mobile-apps"
+              href="/mobile-apps"
               onClick={() => {
                 setValue(1);
                 setSelectedIndex(2);
@@ -112,7 +112,7 @@ function Footer(props) {
             </StyledGridLink>
             <StyledGridLink
               component={Link}
-              to="/websites"
+              href="/websites"
               onClick={() => {
                 setValue(1);
                 setSelectedIndex(3);
@@ -127,7 +127,7 @@ function Footer(props) {
           <Grid container direction="column" spacing={2}>
             <StyledGridLink
               component={Link}
-              to="/revolution"
+              href="/revolution"
               onClick={() => setValue(2)}
               item
             >
@@ -135,7 +135,7 @@ function Footer(props) {
             </StyledGridLink>
             <StyledGridLink
               component={Link}
-              to="/revolution"
+              href="/revolution"
               onClick={() => setValue(2)}
               item
             >
@@ -143,7 +143,7 @@ function Footer(props) {
             </StyledGridLink>
             <StyledGridLink
               component={Link}
-              to="/revolution"
+              href="/revolution"
               onClick={() => setValue(2)}
               item
             >
@@ -151,7 +151,7 @@ function Footer(props) {
             </StyledGridLink>
             <StyledGridLink
               component={Link}
-              to="/revolution"
+              href="/revolution"
               onClick={() => setValue(2)}
               item
             >
@@ -163,7 +163,7 @@ function Footer(props) {
           <Grid container direction="column" spacing={2}>
             <StyledGridLink
               component={Link}
-              to="/about"
+              href="/about"
               onClick={() => setValue(3)}
               item
             >
@@ -171,7 +171,7 @@ function Footer(props) {
             </StyledGridLink>
             <StyledGridLink
               component={Link}
-              to="/about"
+              href="/about"
               onClick={() => setValue(3)}
               item
             >
@@ -179,7 +179,7 @@ function Footer(props) {
             </StyledGridLink>
             <StyledGridLink
               component={Link}
-              to="/about"
+              href="/about"
               onClick={() => setValue(3)}
               item
             >
@@ -191,7 +191,7 @@ function Footer(props) {
           <Grid container direction="column" spacing={2}>
             <StyledGridLink
               component={Link}
-              to="/contact"
+              href="/contact"
               onClick={() => setValue(4)}
               item
             >

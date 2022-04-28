@@ -531,7 +531,7 @@ function Revolution(props) {
           </Grid>
         </Grid>
         <Grid item lg style={{ alignSelf: "center" }}>
-          <img src={review} alt="magnifying glass" width="100%" />
+          <img src="/asserts/review.svg" alt="magnifying glass" width="100%" />
         </Grid>
       </RowContainer>
       <RowContainer

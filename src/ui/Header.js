@@ -17,7 +17,7 @@ import {
 import { useTheme } from "@mui/system";
 import styled from "@emotion/styled";
 import React, { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
+import Link from "../Link";
 
 import MenuIcon from "@mui/icons-material/Menu";
 
@@ -233,7 +233,7 @@ function Header(props) {
         {routes.map((route, index) => (
           <MyTab
             LinkComponent={Link}
-            to={route.link}
+            href={route.link}
             label={route.name}
             aria-owns={route.ariaOwns}
             aria-haspopup={route.ariaHaspopup}
@@ -244,7 +244,7 @@ function Header(props) {
       </MyTabs>
       <MyButton
         LinkComponent={Link}
-        to="/estimate"
+        href="/estimate"
         variant="contained"
         color="secondary"
         onClick={() => setValue(5)}
@@ -273,7 +273,7 @@ function Header(props) {
           >
             <Link
               style={{ color: "inherit", textDecoration: "inherit" }}
-              to={option.link}
+              href={option.link}
             >
               {option.name}
             </Link>
@@ -302,7 +302,7 @@ function Header(props) {
               }}
               divider
               component={Link}
-              to={route.link}
+              href={route.link}
               selected={value === route.activeIndex}
               key={`${route}${route.activeIndex}`}
             >
@@ -319,7 +319,7 @@ function Header(props) {
             }}
             divider
             component={Link}
-            to="/estimate"
+            href="/estimate"
             selected={value === 5}
             style={{
               backgroundColor: theme.palette.common.arcOrange,
@@ -347,7 +347,7 @@ function Header(props) {
               onClick={() => setValue(0)}
               disableRipple
               LinkComponent={Link}
-              to="/"
+              href="/"
             >
               <MyImg src="/assets/logo.svg" alt="Company Logo" />
             </LogoContainer>
