@@ -10,6 +10,7 @@ import {
   Snackbar,
   CircularProgress,
 } from "@mui/material";
+import Head from "next/head";
 import { styled, useTheme } from "@mui/system";
 import React, { useState } from "react";
 import Lottie from "react-lottie";
@@ -645,6 +646,11 @@ function Estimate() {
 
   const softwareSelection = (
     <Grid container direction="column">
+      <Head>
+        <title key="title">
+          Free Custom Software Estimate | Arc Development
+        </title>
+      </Head>
       <Grid
         item
         container

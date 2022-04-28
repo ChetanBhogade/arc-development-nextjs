@@ -3,6 +3,7 @@ import { styled, useTheme } from "@mui/system";
 import React from "react";
 import Link from "../src/Link";
 import ButtonArrow from "../src/ui/ButtonArrow";
+import Head from "next/head";
 
 const ServiceContainer = styled(Grid)(({ theme }) => ({
   marginTop: "10em",
@@ -41,6 +42,11 @@ function Services(props) {
 
   return (
     <Grid container direction="column">
+      <Head>
+        <title key="title">
+          Top Custom Software Development Services | Arc Development
+        </title>
+      </Head>
       <Grid
         item
         style={{

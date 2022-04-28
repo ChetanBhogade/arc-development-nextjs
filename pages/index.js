@@ -10,6 +10,7 @@ import { styled, useTheme } from "@mui/system";
 import React from "react";
 import Link from "../src/Link";
 import Lottie from "react-lottie";
+import Head from "next/head";
 
 import ButtonArrow from "../src/ui/ButtonArrow";
 import CallToAction from "../src/ui/CallToAction";
@@ -147,6 +148,11 @@ function LandingPage(props) {
 
   return (
     <MainContainer container direction="column">
+      <Head>
+        <title key="title">
+          Custom Software, Mobile Apps, and Websites | Arc Development
+        </title>
+      </Head>
       <Grid item>
         {/* -----Hero Block----- */}
         <Grid

@@ -1,5 +1,6 @@
 import { Avatar, Grid, Typography, useMediaQuery } from "@mui/material";
 import { styled, useTheme } from "@mui/system";
+import Head from "next/head";
 import React from "react";
 import CallToAction from "../src/ui/CallToAction";
 
@@ -41,6 +42,9 @@ function About(props) {
 
   return (
     <Grid container direction="column">
+      <Head>
+        <title key="title">About Us - History & Team | Arc Development</title>
+      </Head>
       <RowContainer item style={{ marginTop: matchesMD ? "1em" : "2em" }}>
         <Typography variant="h2" align={matchesMD ? "center" : undefined}>
           About Us

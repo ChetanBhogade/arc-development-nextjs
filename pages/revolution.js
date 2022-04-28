@@ -2,6 +2,7 @@ import { Grid, Typography, useMediaQuery } from "@mui/material";
 import { styled, useTheme } from "@mui/system";
 import React from "react";
 import Lottie from "react-lottie";
+import Head from "next/head";
 
 import technologyAnimation from "../src/animations/technologyAnimation/data.json";
 
@@ -31,6 +32,11 @@ function Revolution(props) {
 
   return (
     <Grid container direction="column">
+      <Head>
+        <title key="title">
+          The Revolution - Cutting-Edge Software | Arc Development
+        </title>
+      </Head>
       <RowContainer item style={{ marginTop: "2em" }}>
         <Typography
           align={matchesMD ? "center" : undefined}

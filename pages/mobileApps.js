@@ -3,6 +3,7 @@ import { styled, useTheme } from "@mui/system";
 import React from "react";
 import Lottie from "react-lottie";
 import Link from "../src/Link";
+import Head from "next/head";
 
 import integrationAnimation from "../src/animations/integrationAnimation/data.json";
 import CallToAction from "../src/ui/CallToAction";
@@ -40,6 +41,11 @@ function MobileApps(props) {
 
   return (
     <Grid container direction="column">
+      <Head>
+        <title key="title">
+          iOS/Android App Design and Development | Arc Development
+        </title>
+      </Head>
       <RowContainer
         item
         container

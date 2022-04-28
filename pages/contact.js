@@ -13,6 +13,7 @@ import { styled, useTheme } from "@mui/system";
 import React, { useState } from "react";
 import Link from "../src/Link";
 import axios from "axios";
+import Head from "next/head";
 
 import ButtonArrow from "../src/ui/ButtonArrow";
 
@@ -182,6 +183,9 @@ function Contact(props) {
 
   return (
     <Grid container direction="row">
+      <Head>
+        <title key="title">Contact Us | Arc Development</title>
+      </Head>
       <Grid
         item
         container

@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "../src/Link";
 import Lottie from "react-lottie";
+import Head from "next/head";
 import { styled, useTheme } from "@mui/system";
 import { Grid, IconButton, Typography, useMediaQuery } from "@mui/material";
 import CallToAction from "../src/ui/CallToAction";
@@ -70,6 +71,9 @@ function CustomSoftware(props) {
 
   return (
     <Grid container direction="column">
+      <Head>
+        <title key="title">Custom Software Development and Design - Free Estimate</title>
+      </Head>
       <RowContainer
         item
         container

@@ -2,6 +2,7 @@ import { Grid, IconButton, Typography, useMediaQuery } from "@mui/material";
 import { styled, useTheme } from "@mui/system";
 import React from "react";
 import Link from "../src/Link";
+import Head from "next/head";
 
 import CallToAction from "../src/ui/CallToAction";
 
@@ -33,6 +34,11 @@ function Websites(props) {
 
   return (
     <Grid container direction="column">
+      <Head>
+        <title key="title">
+          Stunning Custom Website Design | Arc Development
+        </title>
+      </Head>
       <RowContainer
         item
         container
