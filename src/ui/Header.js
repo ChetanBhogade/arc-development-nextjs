@@ -218,7 +218,9 @@ function Header(props) {
           break;
 
         case "/estimate":
-          setValue(5);
+          if (value !== 5) {
+            setValue(5);
+          }
           break;
 
         default:

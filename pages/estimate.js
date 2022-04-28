@@ -16,7 +16,7 @@ import Lottie from "react-lottie";
 import { cloneDeep } from "lodash";
 import axios from "axios";
 
-import estimateAnimation from "../animations/estimateAnimation/data.json";
+import estimateAnimation from "../src/animations/estimateAnimation/data.json";
 
 const StyledIcon = styled("img")(({ theme }) => ({
   width: "12em",
@@ -98,7 +98,7 @@ const softwareQuestions = [
         id: 1,
         title: "Web Application",
         subtitle: null,
-        icon: website,
+        icon: "/assets/website.svg",
         iconAlt: "computer outline",
         selected: false,
         cost: 100,
@@ -277,7 +277,7 @@ const websiteQuestions = [
         id: 1,
         title: "Basic",
         subtitle: "(Informational)",
-        icon: info,
+        icon: "/assets/info.svg",
         iconAlt: "person outline",
         selected: false,
         cost: 100,
@@ -286,7 +286,7 @@ const websiteQuestions = [
         id: 2,
         title: "Interactive",
         subtitle: "(Users, API's, Messaging)",
-        icon: customized,
+        icon: "/assets/customized.svg",
         iconAlt: "outline of two people",
         selected: false,
         cost: 200,

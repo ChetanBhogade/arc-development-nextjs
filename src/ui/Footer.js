@@ -201,7 +201,7 @@ function Footer(props) {
         </StyledGridItem>
       </MainContainer>
       <AdornmentImg
-        src="/assets/footerAdornment"
+        src="/assets/footerAdornment.svg"
         alt="Black decorative slash"
       />
       <SocialContainer spacing={2} justifyContent="flex-end" container>
