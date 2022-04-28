@@ -51,6 +51,12 @@ function Services(props) {
           key="description"
           content="Cutting-edge software, mobile app, and website development services with sleek custom design - get a free online estimate instantly!"
         />
+        <meta
+          property="og:title"
+          content="Bringing West Coast Technology to the Midwest | Services"
+          key="og:title"
+        />
+        <meta property="og:url" content="arc.com/services" key="og:url" />
       </Head>
       <Grid
         item

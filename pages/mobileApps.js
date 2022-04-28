@@ -50,6 +50,12 @@ function MobileApps(props) {
           key="description"
           content="Mobile Apps made easy | our cutting-edge mobile app development process lets us build beautifully designed, carefully crafted apps for both iOS and Android."
         />
+        <meta
+          property="og:title"
+          content="Bringing West Coast Technology to the Midwest | iOS/Android App Development"
+          key="og:title"
+        />
+        <meta property="og:url" content="arc.com/mobileApps" key="og:url" />
       </Head>
       <RowContainer
         item
