@@ -45,6 +45,11 @@ function MobileApps(props) {
         <title key="title">
           iOS/Android App Design and Development | Arc Development
         </title>
+        <meta
+          name="description"
+          key="description"
+          content="Mobile Apps made easy | our cutting-edge mobile app development process lets us build beautifully designed, carefully crafted apps for both iOS and Android."
+        />
       </Head>
       <RowContainer
         item
