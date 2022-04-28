@@ -47,6 +47,7 @@ function Revolution(props) {
           key="og:title"
         />
         <meta property="og:url" content="arc.com/revolution" key="og:url" />
+        <link rel="canonical" key="canonical" href="arc.com/revolution" />
       </Head>
       <RowContainer item style={{ marginTop: "2em" }}>
         <Typography

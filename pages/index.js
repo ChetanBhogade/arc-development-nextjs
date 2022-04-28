@@ -163,6 +163,7 @@ function LandingPage(props) {
           key="og:title"
         />
         <meta property="og:url" content="arc.com" key="og:url" />
+        <link rel="canonical" key="canonical" href="arc.com" />
       </Head>
       <Grid item>
         {/* -----Hero Block----- */}

@@ -55,6 +55,7 @@ function About(props) {
           key="og:title"
         />
         <meta property="og:url" content="arc.com/about" key="og:url" />
+        <link rel="canonical" key="canonical" href="arc.com/about" />
       </Head>
       <RowContainer item style={{ marginTop: matchesMD ? "1em" : "2em" }}>
         <Typography variant="h2" align={matchesMD ? "center" : undefined}>

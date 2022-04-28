@@ -196,6 +196,7 @@ function Contact(props) {
           key="og:title"
         />
         <meta property="og:url" content="arc.com/contact" key="og:url" />
+        <link rel="canonical" key="canonical" href="arc.com/contact" />
       </Head>
       <Grid
         item

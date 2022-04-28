@@ -86,6 +86,7 @@ function CustomSoftware(props) {
           key="og:title"
         />
         <meta property="og:url" content="arc.com/customSoftware" key="og:url" />
+        <link rel="canonical" key="canonical" href="arc.com/customSoftware" />
       </Head>
       <RowContainer
         item

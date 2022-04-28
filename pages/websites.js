@@ -49,6 +49,7 @@ function Websites(props) {
           key="og:title"
         />
         <meta property="og:url" content="arc.com/websites" key="og:url" />
+        <link rel="canonical" key="canonical" href="arc.com/website" />
       </Head>
       <RowContainer
         item

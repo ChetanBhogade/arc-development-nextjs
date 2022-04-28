@@ -56,6 +56,7 @@ function MobileApps(props) {
           key="og:title"
         />
         <meta property="og:url" content="arc.com/mobileApps" key="og:url" />
+        <link rel="canonical" key="canonical" href="arc.com/mobileApps" />
       </Head>
       <RowContainer
         item

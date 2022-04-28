@@ -661,6 +661,7 @@ function Estimate() {
           key="og:title"
         />
         <meta property="og:url" content="arc.com/estimate" key="og:url" />
+        <link rel="canonical" key="canonical" href="arc.com/estimate" />
       </Head>
       <Grid
         item
