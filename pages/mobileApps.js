@@ -89,7 +89,7 @@ function MobileApps(props) {
 
         <HeadingGrid item container direction="column">
           <Grid item>
-            <Typography align={matchesMD ? "center" : undefined} variant="h2">
+            <Typography align={matchesMD ? "center" : undefined} variant="h1">
               iOS/Android App Development
             </Typography>
           </Grid>

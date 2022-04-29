@@ -52,7 +52,7 @@ function Revolution(props) {
       <RowContainer item style={{ marginTop: "2em" }}>
         <Typography
           align={matchesMD ? "center" : undefined}
-          variant="h2"
+          variant="h1"
           style={{ fontFamily: "Pacifico" }}
         >
           The Revolution
@@ -354,8 +354,8 @@ function Revolution(props) {
               style={{ color: "#FFF", maxWidth: "20em" }}
               paragraph
             >
-              Then it's time for us to start on your minimum viable product.
-              That's just a fancy term for a mockup, which doesn't include
+              Then it&#39;s time for us to start on your minimum viable product.
+              That&#39;s just a fancy term for a mockup, which doesn&#39;t include
               colors, images, or any other polished design elements, but
               captures the essential layout structure and functionality.
             </Typography>
@@ -541,7 +541,7 @@ function Revolution(props) {
               style={{ color: "#FFF", maxWidth: "20em" }}
               paragraph
             >
-              This time we'll be going over the finalized designs in another
+              This time we&#39;ll be going over the finalized designs in another
               fully interactive demonstration. Again this gives you an
               opportunity to tweak things and make sure we get everything right
               the first time.
@@ -583,7 +583,7 @@ function Revolution(props) {
               style={{ color: "#FFF", maxWidth: "20em" }}
               paragraph
             >
-              Here's where we get down to business.
+              Here&#39;s where we get down to business.
             </Typography>
             <Typography
               align={matchesMD ? "center" : undefined}
@@ -620,7 +620,7 @@ function Revolution(props) {
               style={{ color: "#FFF", maxWidth: "20em" }}
               paragraph
             >
-              Finishing the application doesn't mean we're done though, because
+              Finishing the application doesn&#39;t mean we&#39;re done though, because
               we use extensive testing to guarantee compatibility with all
               intended devices.
             </Typography>
@@ -677,7 +677,7 @@ function Revolution(props) {
               style={{ color: "#FFF", maxWidth: "20em" }}
               paragraph
             >
-              The moment we've all been waiting for.
+              The moment we&#39;ve all been waiting for.
             </Typography>
             <Typography
               align={matchesMD ? "center" : undefined}
@@ -685,8 +685,8 @@ function Revolution(props) {
               style={{ color: "#FFF", maxWidth: "20em" }}
               paragraph
             >
-              When construction comes to a close you're the first one to know.
-              We'll give our final demonstration to show off your shiny new
+              When construction comes to a close you&#39;re the first one to know.
+              We&#39;ll give our final demonstration to show off your shiny new
               software in the wild so you know exactly how it will look to your
               users.
             </Typography>
@@ -697,7 +697,7 @@ function Revolution(props) {
               paragraph
             >
               When you say the word, we press the button and launch your project
-              out to the public. We're there to ensure everything goes to plan
+              out to the public. We&#39;re there to ensure everything goes to plan
               so you can start reaping the rewards of your technological
               investment immediately.
             </Typography>
@@ -743,7 +743,7 @@ function Revolution(props) {
               style={{ color: "#FFF", maxWidth: "20em" }}
               paragraph
             >
-              Our work doesn't end there.
+              Our work doesn&#39;t end there.
             </Typography>
             <Typography
               align={matchesMD ? "center" : undefined}

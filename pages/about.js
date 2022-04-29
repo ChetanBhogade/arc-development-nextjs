@@ -58,7 +58,7 @@ function About(props) {
         <link rel="canonical" key="canonical" href="arc.com/about" />
       </Head>
       <RowContainer item style={{ marginTop: matchesMD ? "1em" : "2em" }}>
-        <Typography variant="h2" align={matchesMD ? "center" : undefined}>
+        <Typography variant="h1" align={matchesMD ? "center" : undefined}>
           About Us
         </Typography>
       </RowContainer>
@@ -108,14 +108,14 @@ function About(props) {
                 align={matchesMD ? "center" : undefined}
                 style={{ fontWeight: 700, fontStyle: "italic" }}
               >
-                We're the new kid on the block
+                We&#39;re the new kid on the block
               </Typography>
               <Typography
                 align={matchesMD ? "center" : undefined}
                 variant="body1"
                 paragraph
               >
-                Founded in 2019, we're ready to get our hands on the world's
+                Founded in 2019, we&#39;re ready to get our hands on the world&#39;s
                 business problems.
               </Typography>
               <Typography
@@ -123,7 +123,7 @@ function About(props) {
                 variant="body1"
                 paragraph
               >
-                It all started with one question: Why aren't all businesses
+                It all started with one question: Why aren&#39;t all businesses
                 using available technology? There are many different answers to
                 that question: economic barriers, social barriers, educational
                 barriers, and sometimes institutional barriers.
@@ -187,7 +187,7 @@ function About(props) {
                 studying design, always just learning.
               </Typography>
               <Typography variant="body1" align="center" paragraph>
-                Now I'm ready to apply everything I've learned, and to help
+                Now I&#39;m ready to apply everything I&#39;ve learned, and to help
                 others with the
               </Typography>
             </Grid>
@@ -224,7 +224,7 @@ function About(props) {
                 studying design, always just learning.
               </Typography>
               <Typography variant="body1" align="center" paragraph>
-                Now I'm ready to apply everything I've learned, and to help
+                Now I&#39;m ready to apply everything I&#39;ve learned, and to help
                 others with the
               </Typography>
             </Grid>

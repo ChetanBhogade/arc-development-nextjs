@@ -116,7 +116,7 @@ function CustomSoftware(props) {
 
         <HeadingGrid item container direction="column">
           <Grid item>
-            <Typography align={matchesMD ? "center" : undefined} variant="h2">
+            <Typography align={matchesMD ? "center" : undefined} variant="h1">
               Custom Software Development
             </Typography>
           </Grid>
@@ -126,7 +126,7 @@ function CustomSoftware(props) {
               variant="body1"
               paragraph
             >
-              Whether we're replacing old software or inventing new solutions,
+              Whether we&#39;re replacing old software or inventing new solutions,
               Arc Development is here to help your business tackle technology.
             </Typography>
             <Typography
@@ -315,7 +315,7 @@ function CustomSoftware(props) {
                 align={matchesSM ? "center" : "right"}
                 paragraph
               >
-                Whether you're a large brand, just getting started, or taking
+                Whether you&#39;re a large brand, just getting started, or taking
                 off right now, our application architecture ensures pain-free
                 growth and reliability.
               </Typography>
@@ -380,7 +380,7 @@ function CustomSoftware(props) {
                 variant="body1"
                 paragraph
               >
-                Why waste time when you don't have to?
+                Why waste time when you don&#39;t have to?
               </Typography>
               <Typography
                 align={matchesSM ? "center" : undefined}
@@ -431,7 +431,7 @@ function CustomSoftware(props) {
                 align={matchesSM ? "center" : "right"}
                 paragraph
               >
-                A good design that isn't usable isn't a good design.
+                A good design that isn&#39;t usable isn&#39;t a good design.
               </Typography>
               <Typography
                 variant="body1"
@@ -447,7 +447,7 @@ function CustomSoftware(props) {
                 paragraph
               >
                 By prioritizing users and the real ways they interact with
-                technology we're able to develop unique, personable experiences
+                technology we&#39;re able to develop unique, personable experiences
                 that solve problems rather than create new ones.
               </Typography>
             </Grid>

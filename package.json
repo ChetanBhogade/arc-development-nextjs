@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "post-update": "echo \"codesandbox preview only, need an update\" && yarn upgrade --latest"
+    "post-update": "echo \"codesandbox preview only, need an update\" && yarn upgrade --latest",
+    "postbuild": "node scripts/sitemap.js"
   },
   "dependencies": {
     "@emotion/cache": "latest",
@@ -17,7 +18,8 @@
     "@mui/icons-material": "latest",
     "@mui/material": "latest",
     "axios": "^0.27.2",
-    "imagemin-mozjpeg": "^10.0.0",
+    "fs-extra": "^10.1.0",
+    "imagemin-mozjpeg": "^9.0.0",
     "imagemin-optipng": "^8.0.0",
     "lodash": "^4.17.21",
     "next": "latest",

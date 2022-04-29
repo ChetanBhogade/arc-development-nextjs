@@ -79,7 +79,7 @@ function Websites(props) {
 
         <HeadingGrid item container direction="column">
           <Grid item>
-            <Typography align={matchesMD ? "center" : undefined} variant="h2">
+            <Typography align={matchesMD ? "center" : undefined} variant="h1">
               Website Development
             </Typography>
           </Grid>
@@ -89,9 +89,9 @@ function Websites(props) {
               variant="body1"
               paragraph
             >
-              Having a website is a necessity in today's business world. They
+              Having a website is a necessity in today&#39;s business world. They
               give you one central, public location to let people know who you
-              are, what you do, and why you're the best at it.
+              are, what you do, and why you&#39;re the best at it.
             </Typography>
             <Typography
               align={matchesMD ? "center" : undefined}
@@ -191,14 +191,14 @@ function Websites(props) {
             variant="body1"
             paragraph
           >
-            It's no secret that people like to shop online.
+            It&#39;s no secret that people like to shop online.
           </Typography>
           <Typography
             align={matchesSM ? "center" : undefined}
             variant="body1"
             paragraph
           >
-            In 2017 over $2.3 trillion was spent in e-commerce, and it's time
+            In 2017 over $2.3 trillion was spent in e-commerce, and it&#39;s time
             for your slice of that pie.
           </Typography>
         </ParagraphContainer>
@@ -232,7 +232,7 @@ function Websites(props) {
             paragraph
           >
             Draw people in with a dazzling website. Showing off your products
-            online is a great way to help customers decide what's right for them
+            online is a great way to help customers decide what&#39;s right for them
             before visiting in person.
           </Typography>
         </ParagraphContainer>
@@ -275,14 +275,14 @@ function Websites(props) {
             variant="body1"
             paragraph
           >
-            If you're like us, probably never.
+            If you&#39;re like us, probably never.
           </Typography>
           <Typography
             align={matchesSM ? "center" : undefined}
             variant="body1"
             paragraph
           >
-            Customers don't go there either, so we make sure your website is
+            Customers don&#39;t go there either, so we make sure your website is
           </Typography>
         </ParagraphContainer>
       </RowContainer>

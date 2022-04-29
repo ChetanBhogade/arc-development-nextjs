@@ -790,7 +790,7 @@ function Estimate() {
           item
           style={{ marginTop: "2em", marginLeft: matchesMD ? 0 : "5em" }}
         >
-          <Typography variant="h2" align={matchesMD ? "center" : undefined}>
+          <Typography variant="h1" align={matchesMD ? "center" : undefined}>
             Estimate
           </Typography>
         </Grid>
@@ -820,7 +820,7 @@ function Estimate() {
               <React.Fragment key={index}>
                 <Grid item>
                   <Typography
-                    variant="h2"
+                    variant="h1"
                     align="center"
                     style={{
                       fontWeight: 500,
@@ -952,7 +952,7 @@ function Estimate() {
       >
         <Grid container justifyContent="center">
           <Grid item style={{ marginTop: "1em", marginBottom: "1em" }}>
-            <Typography align="center" variant="h2">
+            <Typography align="center" variant="h1">
               Estimate
             </Typography>
           </Grid>
@@ -1047,7 +1047,7 @@ function Estimate() {
                   paragraph
                 >
                   Fill out your name, phone, and email, place your request, and
-                  we'll get back to you with details moving forward and a final
+                  we&#39;ll get back to you with details moving forward and a final
                   price.
                 </Typography>
               </Grid>

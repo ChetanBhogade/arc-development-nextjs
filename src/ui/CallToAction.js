@@ -23,7 +23,7 @@ const Background = styled(Grid)(({ theme }) => ({
   height: "60em",
   width: "100%",
   [theme.breakpoints.down("md")]: {
-    backgroundImage: 'url("/assets/mobileBackground.js")',
+    backgroundImage: 'url("/assets/mobileBackground.jpg")',
     backgroundAttachment: "inherit",
   },
 }));
@@ -68,7 +68,7 @@ function CallToAction(props) {
       >
         <Grid container direction="column">
           <Grid item>
-            <Typography variant="h2">
+            <Typography variant="h1">
               Simple Software.
               <br /> Revolutionary Results.
             </Typography>

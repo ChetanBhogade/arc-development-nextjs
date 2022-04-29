@@ -67,7 +67,7 @@ function Services(props) {
         }}
       >
         <Typography
-          variant="h2"
+          variant="h1"
           gutterBottom
           alignItems={matchesMD ? "center" : undefined}
         >

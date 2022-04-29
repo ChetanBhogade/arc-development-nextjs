@@ -216,7 +216,7 @@ function Contact(props) {
             <Grid item>
               <Typography
                 align={matchesMD ? "center" : undefined}
-                variant="h2"
+                variant="h1"
                 style={{ lineHeight: 1 }}
               >
                 Contact Us
@@ -226,7 +226,7 @@ function Contact(props) {
                 align={matchesMD ? "center" : undefined}
                 style={{ color: theme.palette.common.arcBlue }}
               >
-                We're waiting.
+                We&#39;re waiting.
               </Typography>
             </Grid>
             <Grid item container style={{ marginTop: "2em" }}>
@@ -525,7 +525,7 @@ function Contact(props) {
         >
           <Grid container direction="column">
             <Grid item>
-              <Typography align={matchesMD ? "center" : undefined} variant="h2">
+              <Typography align={matchesMD ? "center" : undefined} variant="h1">
                 Simple Software.
                 <br /> Revolutionary Results.
               </Typography>

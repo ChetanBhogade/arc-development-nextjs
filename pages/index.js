@@ -174,7 +174,7 @@ function LandingPage(props) {
           alignItems="center"
         >
           <HeroTextContainer item sm>
-            <Typography align="center" variant="h2">
+            <Typography align="center" variant="h1">
               Bringing West Coast Technology
               <br />
               to the Midwest
@@ -423,10 +423,10 @@ function LandingPage(props) {
                 style={{ marginBottom: matchesSM ? "10em" : 0 }}
                 direction="column"
               >
-                <Typography variant="h2" style={{ color: "white" }}>
+                <Typography variant="h1" style={{ color: "white" }}>
                   About Us
                 </Typography>
-                <Typography variant="subtitle2">Let's get personal.</Typography>
+                <Typography variant="subtitle2">Let&#39;s get personal.</Typography>
                 <Grid item>
                   <LearnButton
                     component={Link}
@@ -452,7 +452,7 @@ function LandingPage(props) {
               }}
             >
               <Grid container direction="column">
-                <Typography variant="h2" style={{ color: "white" }}>
+                <Typography variant="h1" style={{ color: "white" }}>
                   Contact Us
                 </Typography>
                 <Typography variant="subtitle2">Say Hello! </Typography>
