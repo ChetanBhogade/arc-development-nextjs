@@ -64,7 +64,7 @@ function Footer(props) {
         container
       >
         <StyledGridItem item>
-          <Grid container direction="column" spacing={2}>
+          <Grid container direction="column" spacing={2} style={{ margin: 0 }}>
             <StyledGridLink
               component={Link}
               href="/"
@@ -76,7 +76,7 @@ function Footer(props) {
           </Grid>
         </StyledGridItem>
         <StyledGridItem item>
-          <Grid container direction="column" spacing={2}>
+          <Grid container direction="column" spacing={2} style={{ margin: 0 }}>
             <StyledGridLink
               component={Link}
               href="/services"
@@ -124,7 +124,7 @@ function Footer(props) {
           </Grid>
         </StyledGridItem>
         <StyledGridItem item>
-          <Grid container direction="column" spacing={2}>
+          <Grid container direction="column" spacing={2} style={{ margin: 0 }}>
             <StyledGridLink
               component={Link}
               href="/revolution"
@@ -160,7 +160,7 @@ function Footer(props) {
           </Grid>
         </StyledGridItem>
         <StyledGridItem item>
-          <Grid container direction="column" spacing={2}>
+          <Grid container direction="column" spacing={2} style={{ margin: 0 }}>
             <StyledGridLink
               component={Link}
               href="/about"
@@ -188,7 +188,7 @@ function Footer(props) {
           </Grid>
         </StyledGridItem>
         <StyledGridItem item>
-          <Grid container direction="column" spacing={2}>
+          <Grid container direction="column" spacing={2} style={{ margin: 0 }}>
             <StyledGridLink
               component={Link}
               href="/contact"

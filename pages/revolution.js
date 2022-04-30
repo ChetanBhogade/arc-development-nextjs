@@ -355,8 +355,8 @@ function Revolution(props) {
               paragraph
             >
               Then it&#39;s time for us to start on your minimum viable product.
-              That&#39;s just a fancy term for a mockup, which doesn&#39;t include
-              colors, images, or any other polished design elements, but
+              That&#39;s just a fancy term for a mockup, which doesn&#39;t
+              include colors, images, or any other polished design elements, but
               captures the essential layout structure and functionality.
             </Typography>
             <Typography
@@ -441,6 +441,7 @@ function Revolution(props) {
             src="/assets/reviewIcon.svg"
             width="100%"
             alt="magnifying glass"
+            style={{ maxWidth: "40em" }}
           />
         </Grid>
       </RowContainer>
@@ -549,7 +550,12 @@ function Revolution(props) {
           </Grid>
         </Grid>
         <Grid item lg style={{ alignSelf: "center" }}>
-          <img src="/asserts/review.svg" alt="magnifying glass" width="100%" />
+          <img
+            src="/assets/reviewIcon.svg"
+            alt="magnifying glass"
+            width="100%"
+            style={{ maxWidth: "40em" }}
+          />
         </Grid>
       </RowContainer>
       <RowContainer
@@ -620,9 +626,9 @@ function Revolution(props) {
               style={{ color: "#FFF", maxWidth: "20em" }}
               paragraph
             >
-              Finishing the application doesn&#39;t mean we&#39;re done though, because
-              we use extensive testing to guarantee compatibility with all
-              intended devices.
+              Finishing the application doesn&#39;t mean we&#39;re done though,
+              because we use extensive testing to guarantee compatibility with
+              all intended devices.
             </Typography>
             <Typography
               align={matchesMD ? "center" : undefined}
@@ -685,10 +691,10 @@ function Revolution(props) {
               style={{ color: "#FFF", maxWidth: "20em" }}
               paragraph
             >
-              When construction comes to a close you&#39;re the first one to know.
-              We&#39;ll give our final demonstration to show off your shiny new
-              software in the wild so you know exactly how it will look to your
-              users.
+              When construction comes to a close you&#39;re the first one to
+              know. We&#39;ll give our final demonstration to show off your
+              shiny new software in the wild so you know exactly how it will
+              look to your users.
             </Typography>
             <Typography
               align={matchesMD ? "center" : undefined}
@@ -697,8 +703,8 @@ function Revolution(props) {
               paragraph
             >
               When you say the word, we press the button and launch your project
-              out to the public. We&#39;re there to ensure everything goes to plan
-              so you can start reaping the rewards of your technological
+              out to the public. We&#39;re there to ensure everything goes to
+              plan so you can start reaping the rewards of your technological
               investment immediately.
             </Typography>
           </Grid>

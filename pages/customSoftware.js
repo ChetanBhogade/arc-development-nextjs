@@ -126,8 +126,9 @@ function CustomSoftware(props) {
               variant="body1"
               paragraph
             >
-              Whether we&#39;re replacing old software or inventing new solutions,
-              Arc Development is here to help your business tackle technology.
+              Whether we&#39;re replacing old software or inventing new
+              solutions, Arc Development is here to help your business tackle
+              technology.
             </Typography>
             <Typography
               align={matchesMD ? "center" : undefined}
@@ -241,7 +242,8 @@ function CustomSoftware(props) {
         container
         direction={matchesMD ? "column" : "row"}
         alignItems={matchesMD ? "center" : undefined}
-        justifyContent="space-between"
+        justifyContent={matchesMD ? "center" : "space-between"}
+        style={{ display: matchesMD ? "grid" : undefined }}
       >
         <ItemContainer
           item
@@ -315,9 +317,9 @@ function CustomSoftware(props) {
                 align={matchesSM ? "center" : "right"}
                 paragraph
               >
-                Whether you&#39;re a large brand, just getting started, or taking
-                off right now, our application architecture ensures pain-free
-                growth and reliability.
+                Whether you&#39;re a large brand, just getting started, or
+                taking off right now, our application architecture ensures
+                pain-free growth and reliability.
               </Typography>
             </Grid>
           </Grid>
@@ -358,8 +360,10 @@ function CustomSoftware(props) {
         container
         direction={matchesMD ? "column" : "row"}
         alignItems={matchesMD ? "center" : undefined}
-        justifyContent="space-between"
-        style={{ marginBottom: "20em" }}
+        justifyContent={matchesMD ? "center" : "space-between"}
+        style={{
+          display: matchesMD ? "grid" : undefined,
+        }}
       >
         <ItemContainer
           item
@@ -447,14 +451,19 @@ function CustomSoftware(props) {
                 paragraph
               >
                 By prioritizing users and the real ways they interact with
-                technology we&#39;re able to develop unique, personable experiences
-                that solve problems rather than create new ones.
+                technology we&#39;re able to develop unique, personable
+                experiences that solve problems rather than create new ones.
               </Typography>
             </Grid>
           </Grid>
         </ItemContainer>
       </RowContainer>
-      <Grid item>
+      <Grid
+        item
+        style={{
+          marginTop: "20em",
+        }}
+      >
         <CallToAction setValue={setValue} setSelectedIndex={setSelectedIndex} />
       </Grid>
     </Grid>
