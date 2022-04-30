@@ -165,7 +165,7 @@ function CustomSoftware(props) {
           <ArrowContainer item>
             <IconButton
               component={Link}
-              href="/mobile-apps"
+              href="/mobileApps"
               onClick={() => {
                 setValue(1);
                 setSelectedIndex(2);

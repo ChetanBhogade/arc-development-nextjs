@@ -90,7 +90,7 @@ function Footer(props) {
             </StyledGridLink>
             <StyledGridLink
               component={Link}
-              href="/custom-software"
+              href="/customSoftware"
               onClick={() => {
                 setValue(1);
                 setSelectedIndex(1);
@@ -101,7 +101,7 @@ function Footer(props) {
             </StyledGridLink>
             <StyledGridLink
               component={Link}
-              href="/mobile-apps"
+              href="/mobileApps"
               onClick={() => {
                 setValue(1);
                 setSelectedIndex(2);

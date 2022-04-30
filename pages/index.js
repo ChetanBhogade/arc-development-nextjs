@@ -236,7 +236,7 @@ function LandingPage(props) {
             </Typography>
             <LearnButton
               component={Link}
-              href="/custom-software"
+              href="/customSoftware"
               variant="outlined"
               onClick={() => {
                 setValue(1);
@@ -282,7 +282,7 @@ function LandingPage(props) {
             </Typography>
             <LearnButton
               component={Link}
-              href="/mobile-apps"
+              href="/mobileApps"
               onClick={() => {
                 setValue(1);
                 setSelectedIndex(2);

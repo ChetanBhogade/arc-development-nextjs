@@ -72,7 +72,7 @@ function MobileApps(props) {
           >
             <IconButton
               component={Link}
-              href="/custom-software"
+              href="/customSoftware"
               onClick={() => {
                 setValue(1);
                 setSelectedIndex(1);
