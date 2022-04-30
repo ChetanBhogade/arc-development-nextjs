@@ -139,7 +139,7 @@ function Contact(props) {
   const onConfirm = () => {
     setLoading(true);
     axios
-      .post("http://localhost:8000/sendMail", {
+      .post("https://email-service-node-js.herokuapp.com/sendMail", {
         email: email,
         name: name,
         phone: phone,
