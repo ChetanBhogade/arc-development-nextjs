@@ -12,7 +12,7 @@ import Footer from "../src/ui/Footer";
 // Client-side cache, shared for the whole session of the user in the browser.
 const clientSideEmotionCache = createEmotionCache();
 
-ReactGA.initialize("G-W9X7CD6L9G");
+ReactGA.initialize("G-LC9KGMRY98");
 
 export default function MyApp(props) {
   const { Component, emotionCache = clientSideEmotionCache, pageProps } = props;
