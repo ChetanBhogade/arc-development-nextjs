@@ -17,6 +17,7 @@ import {
 import { useTheme } from "@mui/system";
 import styled from "@emotion/styled";
 import React, { useState, useEffect } from "react";
+import ReactGA from "react-ga";
 import Link from "../Link";
 
 import MenuIcon from "@mui/icons-material/Menu";
@@ -147,6 +148,8 @@ function Header(props) {
   const [openMenu, setOpenMenu] = useState(false);
   const [openDrawer, setOpenDrawer] = useState(false);
 
+  const [previousURL, setPreviousURL] = useState("");
+
   const { value, setValue, selectedIndex, setSelectedIndex } = props;
 
   const handleChange = (e, newValue) => {
@@ -207,6 +210,12 @@ function Header(props) {
   ];
 
   useEffect(() => {
+
+    if (previousURL !== window.location.pathname) {
+      setPreviousURL(window.location.pathname)
+      ReactGA.pageview(window.location.pathname + window.location.search);
+    }
+
     [...menuOptions, ...routes].forEach((route) => {
       switch (window.location.pathname) {
         case `${route.link}`:
